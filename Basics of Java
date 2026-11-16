@@ -6,3 +6,14 @@ JAVA CREATION
 1996 - JDK 1.0 first official release on JAN 1996
 
 "WRITE ONCE RUN ANYWHERE" : compile once into portable bytecode.Any device with JVM can run it,no need to rewrite.
+
+Java 1.0 - (Jan1996) JVM,core libraries,applets-"write once,run anywhere".
+Java 5 - (Sep2004) Generics,annotations,enums,enhanced for -loop.
+
+DATA TYPES
+NUMERIC - int,float,long,shart,double,Byte
+String - char,String
+Boolean - true,false
+
+variable declaration - nospaces,no special character(except _),start only with alphabets
+
