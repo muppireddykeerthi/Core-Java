@@ -103,7 +103,7 @@ public class Stringbulider{
 
 
 TYPES OF CLASSES
-1.concrete class
+	1.concrete class
 	2.abstract class
 	3.final class
 	4.static nested class
@@ -112,10 +112,24 @@ TYPES OF CLASSES
 	7.anomoyus class
 	8.tnum class
 	9.interface class
-1.CONCRETE CLASS:
- 	* It is regular class,that can be used to create classes.
-	* 
 
+1.CONCRETE CLASS:
+	public class mits{
+		int id,
+		String name,
+		double cgpa;
+		void display(){
+			System.out.println("ID:"+id);
+			System.out.println("Name:"+name);
+			System.out.println("CGPA:"+cgpa);
+		}
+	public static void main(String[] args){
+		mits Student1=new mits();
+		student1.id=101;
+		student1.name="john doe";
+		student1.display();
+	}
+}
 ACCESS MODIFIERS:
     1.Public
     2.private
@@ -133,7 +147,27 @@ TYPES OF FUNCTIONS:
     3.without parameters,with return type
     4.without parameter,without return type
 
+STATIC METHODS
+1.STATIC:
+	class Square{
+		static void int area(int a,int b){
+			return a*b;
+		}
+		public static void main(string[] args){
+			Square.area(10,20);
+		}
+	}
 
+2.NON STATIC
+ class Square{
+		 int area(int a,int b){
+			return a*b;
+		}
+		public static void main(string[] args){
+			Square sc=new Square();
+			Sc.area(10,20);
+		}
+	}
 
 
 
