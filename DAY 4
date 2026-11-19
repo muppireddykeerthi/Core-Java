@@ -1,0 +1,46 @@
+STRING:
+import java.util.*;
+public class Basics {
+    public static void main(String [] args){
+        Scanner sc=new Scanner(System.in);
+        String obj1=sc.nextLine();
+        for(int i=0;i<obj1.length();i++){
+            System.out.println(obj1.charAt(i));
+        }
+        System.out.println(obj1.length());
+        System.out.println(obj1.toUpperCase());
+        System.out.println(obj1.toLowerCase());
+        System.out.println(obj1.trim());
+        System.out.println(obj1.replace('e','E'));
+        System.out.println(obj1.indexOf('e'));
+        System.out.println(obj1.lastIndexOf('e'));
+        System.out.println(obj1.substring(2,5));
+        System.out.println(obj1.isEmpty());
+        System.out.println(obj1.isBlank());
+        System.out.println(obj1.startsWith("K"));
+        System.out.println(obj1.endsWith("i"));
+        System.out.println(obj1.split(" ")[1]);
+        System.out.println(obj1.valueOf(10));
+        System.out.println(obj1.strip());
+        System.out.println(obj1.repeat(2));
+        System.out.println(obj1.compareTo("Keerthi"));
+        System.out.println(obj1.compareToIgnoreCase("Student"));
+        System.out.println(obj1.equals("Student"));
+        System.out.println(obj1.equalsIgnoreCase("Keerthi"));
+        System.out.println(obj1.contains("Ke"));
+        System.out.println(obj1.matches("Keerthi"));
+        System.out.println(obj1.replaceAll("Keerthi","keer"));
+        System.out.println(obj1.replaceFirst("Keerthi","Keer"));
+        System.out.println(obj1.chars());
+        System.out.println(obj1.codePoints());
+        System.out.println(obj1.concat(" hi"));
+        System.out.println(obj1.intern());
+        System.out.println(obj1.getBytes());
+        System.out.println(obj1.toCharArray());
+        System.out.println(obj1.hashCode());
+        System.out.println(obj1.toString());
+System.out.println(obj1.formatted("Keerthi %s",obj1));
+        System.out.println(obj1.join("-",obj1));
+
+    }
+}
