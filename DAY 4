@@ -102,4 +102,38 @@ public class Stringbulider{
 }
 
 
+TYPES OF CLASSES
+1.concrete class
+	2.abstract class
+	3.final class
+	4.static nested class
+	5.inner class
+	6.local class
+	7.anomoyus class
+	8.tnum class
+	9.interface class
+1.CONCRETE CLASS:
+ 	* It is regular class,that can be used to create classes.
+	* 
+
+ACCESS MODIFIERS:
+    1.Public
+    2.private
+    3.Protected
+    4.Default
+
+TYPES OF VARAIABLES:
+    1. Local Variable
+    2. Instance Variable
+    3. Static Variable
+
+TYPES OF FUNCTIONS:
+    1.with parameter,with return type
+    2.with parameter,without return type
+    3.without parameters,with return type
+    4.without parameter,without return type
+
+
+
+
 
