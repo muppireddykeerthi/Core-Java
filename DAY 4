@@ -45,3 +45,61 @@ System.out.println(obj1.formatted("Keerthi %s",obj1));
     }
 }
 
+==========================================================================================================
+
+public class Stringbulider{
+    public static void main(String[] args){
+        StringBuilder sb = new StringBuilder("Hello");
+        System.out.println(sb);
+        StringBuffer sb1 = new StringBuffer("Hello Everyone");
+        System.out.println(sb1);
+        sb1.append(" How are you?");
+        System.out.println(sb1);
+        sb1.insert(5, " Java");
+        System.out.println(sb1);
+        sb1.replace(0, 5, "Hi");
+        System.out.println(sb1);
+        sb1.delete(0, 3);
+        System.out.println(sb1);
+        sb1.deleteCharAt(4);
+        System.out.println(sb1);
+        sb1.reverse();
+        System.out.println(sb1);
+        sb1.length();
+        System.out.println(sb1.length());
+        sb1.capacity();
+        System.out.println(sb1.capacity());
+        sb1.charAt(2);
+        System.out.println(sb1.charAt(2));
+        sb1.setCharAt(2, 'a');  
+        System.out.println(sb1);
+        sb1.toString();
+        System.out.println(sb1.toString());
+        sb.append(" How are you?");
+        System.out.println(sb);
+        sb.insert(5, " Java");
+        System.out.println(sb);
+        sb.replace(0, 5, "Hi");
+        System.out.println(sb);
+        sb.delete(0, 3);
+        System.out.println(sb);
+        sb.deleteCharAt(4);
+        System.out.println(sb);
+        sb.reverse();
+        System.out.println(sb);
+        sb.length();
+        System.out.println(sb.length());
+        sb.capacity();
+        System.out.println(sb.capacity());
+        sb.charAt(2);
+        System.out.println(sb.charAt(2));
+        sb.setCharAt(2, 'a');  
+        System.out.println(sb);
+        sb.toString();
+        System.out.println(sb.toString());
+
+    }
+}
+
+
+
