@@ -44,3 +44,4 @@ System.out.println(obj1.formatted("Keerthi %s",obj1));
 
     }
 }
+
