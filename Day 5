@@ -1,9 +1,9 @@
 OBJECT OREINTED PROGRAMMING LANGUAGE:
 4 PILLARS
-  1.Encapusalation - hiding of data,showing only necessary data
-  2.Polymorphism - 
-  3.Data Abstraction - 
-  4.Inheritance - a child class acquires the properties and methods of a parent class
+  1. Encapsulation – Wrapping data and methods together in a class.
+  2.Inheritance – Acquiring properties and methods from another class.
+  3.Polymorphism – One method/name having different forms.
+  4.Abstraction – Hiding implementation details and showing only essential features.
 ===========================================================================================================================================================
  TYPES:
  1. Single Inheritance – One child inherits from one parent.
@@ -54,7 +54,7 @@ class Cow extends Animal {
 }
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------
-  4. Multiple Inheritance – One class inherits from multiple parents (not supported through classes in Java, but possible using interfaces).
+ 4. Multiple Inheritance – One class inherits from multiple parents (not supported through classes in Java, but possible using interfaces).
 
 interface Animal {
 }
