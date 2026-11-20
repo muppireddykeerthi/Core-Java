@@ -1,0 +1,81 @@
+OBJECT OREINTED PROGRAMMING LANGUAGE:
+4 PILLARS
+  1.Encapusalation - hiding of data,showing only necessary data
+  2.Polymorphism - 
+  3.Data Abstraction - 
+  4.Inheritance - a child class acquires the properties and methods of a parent class
+===========================================================================================================================================================
+ TYPES:
+ 1. Single Inheritance – One child inherits from one parent.
+
+class Animal {
+    void eat() {
+        System.out.println("Animal eats");
+    }
+}
+
+class Dog extends Animal {
+    void bark() {
+        System.out.println("Dog barks");
+    }
+}
+
+public class Main {
+    public static void main(String[] args) {
+        Dog d = new Dog();
+        d.eat();
+        d.bark();
+    }
+}
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
+ 2. Multilevel Inheritance – A class inherits from another child class.(inherit properties from child class)
+
+class Animal {
+}
+
+class Mammal extends Animal {
+}
+
+class Dog extends Mammal {
+}
+---------------------------------------------------------------------------------------------------------------------------------------------------------------
+ 3. Hierarchical Inheritance – Multiple child classes inherit from one parent.
+
+class Animal {
+}
+
+class Dog extends Animal {
+}
+
+class Cat extends Animal {
+}
+
+class Cow extends Animal {
+}
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------
+  4. Multiple Inheritance – One class inherits from multiple parents (not supported through classes in Java, but possible using interfaces).
+
+interface Animal {
+}
+
+interface Pet {
+}
+
+class Dog implements Animal, Pet {
+}
+--------------------------------------------------------------------------------------------------------------------------------------------------------
+ 5. Hybrid Inheritance – Combination of two or more types (achieved using interfaces in Java).
+
+class Animal {
+}
+
+class Dog extends Animal {
+}
+
+class Puppy extends Dog {
+}
+
+class Cat extends Animal {
+}
+----------------------------------------------------------------------------------------------------------------------------------------------------------
